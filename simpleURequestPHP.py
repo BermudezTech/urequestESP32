@@ -10,8 +10,8 @@ led2 = Pin(22, Pin.OUT)
 contador = 0
 
 wifi_config = {
-    'ssid':'BGNet_2.4G ETB',
-    'password':'e85a17J04G18'
+    'ssid':'',
+    'password':''
 }
 
 wlan = network.WLAN(network.STA_IF)
