@@ -9,10 +9,9 @@ header("Access-Control-Allow-Headers: X-Requested-With");
 
 $json = file_get_contents('php://input');
 $data = json_decode($json);
-$led1on = $data->led1on;
-$led2on = $data->led2on;
+//$led1on = $data->led1on;
 
-$sq = $conexion -> prepare("INSERT INTO test2(ledOn, led2on) VALUES ('$led1on','$led2on')");
+$sq = $conexion -> prepare("");
 $sq -> execute();
 
 echo json_encode("ok");
