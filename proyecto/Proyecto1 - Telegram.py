@@ -32,7 +32,7 @@ wifi_config = {
 
 # Conexión con Bot de Telegram
 utelegram_config = {
-    'token': '6057458573:AAH1o_4UwqtQXy1e1Ql6w6ESR6RaUz98rXs'
+    'token': ''
 }
 
 wlan = network.WLAN(network.STA_IF)
